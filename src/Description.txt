@@ -1,0 +1,12 @@
+Hello, it's Jad Mattar. This is a description file of the project.
+
+In this project, I used react.js to build a calculator. We can perform multiple operations like addition, subtraction, division, multiplication, power and radical. 
+You can also continue your calculations by taking the result directly as number 1.
+
+We have defined for each button a function that we run once this button is pressed.
+For the digits, it will just add the number by multiplying by 10 and adding the digit.
+For operators, it will set the operator based on the button pressed.
+For the equal button, eventually, it will check what the operator is and will perform the operation between number 1 and number 2 accordingly. 
+The C button will clear the numbers and result. The button Del will delete the last digit entered.
+
+Moreover, I added the quadratic equation solver, in which the user enters the 3 parameters a, b, and c and the solution is displayed based of the equations of solving quadratic equations.

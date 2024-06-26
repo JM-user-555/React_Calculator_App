@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+#CalculatorTitle{
+width: 300px;
+height: 150px;
+padding-top: 50px;
+margin-top: 10px;
+margin-left: 34%;
+padding-left: 10%;
+background-color: black;
+color:rgb(255, 255, 255);
+font-family:"Broadway";
+border-radius: 10px; 
+padding-right: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Calc{
+padding-left: 5px;
+margin-left: 34%;
+margin-top: 2%;
+width: 500px;
+background-color: #efecec ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#CalcBtns{
+width: 65px;
+height: 50px;
+margin-left: 30px;
+margin-top: 20px;
+cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#btn0{
+width: 160px;
+height: 50px;
+margin-left: 30px;
+margin-top: 20px; 
+cursor: pointer;
+}
+
+#CalcOperator{
+width: 65px;
+height: 50px;
+margin-left: 30px;
+margin-top: 20px;
+cursor: pointer;
+background-color: blue;
+color:white;
+border: none; 
+}
+
+#CalcClear{
+width: 65px;
+height: 50px;
+margin-left: 30px;
+margin-top: 20px;
+cursor: pointer;
+background-color: blue;
+color:white;
+border: none;
+}
+
+#QuadDiv{
+margin-left: 30px;
+}
+
+#solveEq{
+background-color: black;
+color: white;
+width: 150px;
+height: 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#footer{
+  background-color: black;
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
+#footerPar{
   color: white;
+  animation-name: footerAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes footerAnimation{
+  0%{left: 100%;}
+  50%{left: 50%;}
+  100%{left:-5%;}
 }
