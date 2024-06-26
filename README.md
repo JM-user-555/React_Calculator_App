@@ -1,3 +1,10 @@
+# Calculator React App
+This is simple interactive calculator built using react.js. It offers certain features including arithmetic operations like addition, multiplication, subtraction, division, exponential and square root. 
+The app is designed with a clean responsive user interface.
+Moreover, the app includes a quadratic equation solver, allowing users to input coefficients and solve quadratic equations effortlessly. 
+The code is built using React's component-based architecture, ensuring scalability and maintainability. 
+This project serves as an excellent example of using React.js.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
